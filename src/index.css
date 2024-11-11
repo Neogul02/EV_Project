@@ -1,0 +1,23 @@
+* {
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./assets//fonts/Pretendard-Medium.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'JalnanGothic';
+  src: url('./assets/fonts//JalnanGothic.ttf') format('woff');
+}
+
+body {
+  font-family: 'Pretendard', 'JalnanGothic';
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
